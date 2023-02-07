@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express();
-const PORT=process.env.PORT || 3000 ;
+const PORT=process.env.PORT || 3200 ;
 
 const img = require("./src/routes/image/image.js");
 
